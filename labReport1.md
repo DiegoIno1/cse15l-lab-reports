@@ -1,6 +1,6 @@
-cd Example\
-Current Working Directory: /home 
-(The working directory did change because of the cd command)
+`cd` Example\
+Current Working Directory: `/home` 
+(The working directory did change because of the `cd` command)
 ```
 {
 [user@sahara ~]$ cd
