@@ -46,6 +46,6 @@ Hello world!
 }
 ```
 ![Image](https://i.imgur.com/mfLbFY3.png)\
-For example 1, the cat command took whatever I was writing and would output that. This is not an error, as it is printing out all of the text it is given, since it wasn't given a specific file to read from.
-For example 2, the cat command resulted in an error. Since the command reads text from files, a directory creates an error, as directories contain files, not text.
+For example 1, the cat command took whatever I was writing and would output that. This is not an error, as it is printing out all of the text it is given, since it wasn't given a specific file to read from.\
+For example 2, the cat command resulted in an error. Since the command reads text from files, a directory creates an error, as directories contain files, not text.\
 For example 3, the cat command worked as it normally does. It read the text from the en-ca.txt file, making this not an error.
