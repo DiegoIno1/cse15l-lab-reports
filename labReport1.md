@@ -29,7 +29,7 @@ lecture1/Hello.java
 ![Image](https://i.imgur.com/9appgwb.png)\
 For example 1, it printed out the list of items under the given directory. Since my working directory was /home, it output the lecture1 file. Thus, this is not an error.\
 For example 2, it printed out the list of items under lecture1. Since lecture1 is a directory, the command can print out whatever is inside of it, making it not an error.\
-For example 3, ?
+For example 3, it printed out the given file. Since the ls command was given a specific file instead of a directory, it returned the file, making it not an error.\
 \
 cat Example\
 Current Working Directory: /home
