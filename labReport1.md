@@ -1,6 +1,6 @@
 cd Example\
-Current Working Directory: /home\ 
-(The working directory did change because of the cd command)\
+Current Working Directory: /home 
+(The working directory did change because of the cd command)
 ```
 {
 [user@sahara ~]$ cd
@@ -12,7 +12,7 @@ bash: cd: Hello.java: Not a directory
 ![Image](https://i.imgur.com/d7HyF1s.png)\
 \
 ls Example\
-Current Working Directory: /home\ 
+Current Working Directory: /home
 ```
 {
 [user@sahara ~]$ ls
@@ -26,7 +26,7 @@ lecture1/Hello.java
 ![Image](https://i.imgur.com/9appgwb.png)\
 \
 cat Example\
-Current Working Directory: /home\
+Current Working Directory: /home
 ```
 {                         
 [user@sahara ~/lecture1]$ cat
