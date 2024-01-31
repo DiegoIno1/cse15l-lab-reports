@@ -71,15 +71,18 @@ The values of each of the relevant fields aren't changing, however the value fol
 <h1>Part 2</h1>
   
   
-<h3>Private Key on Local:</h3>\
+<h3>Private Key on Local:</h3>
+  
 ![Image](https://i.imgur.com/O3GtbiS.png)\
   
 In this image, `id_ed25519` refers to the private key, while `id_ed25519.pub` refers to the public key. Thus, the file path for the private key is `id_ed22519`.
   
-<h3>Public Key on ieng6:</h3>\
+<h3>Public Key on ieng6:</h3>
+  
 ![Image](https://i.imgur.com/J1NA7gG.png)\
   
 In this image, `id_rsa.pub` refers to the public key, making the absolute file path `/home/linux/ieng6/oce/22/dinostroza/.ssh/id_rsa.pub`.
   
-<h3>Logging in without a password:</h3>\
+<h3>Logging in without a password:</h3>
+  
 ![Image](https://i.imgur.com/osGwJKc.png)\
