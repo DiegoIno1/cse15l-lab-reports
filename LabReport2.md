@@ -75,7 +75,7 @@ The values of each of the relevant fields aren't changing, however the value fol
   
 ![Image](https://i.imgur.com/O3GtbiS.png)\
   
-In this image, `id_ed25519` refers to the private key, while `id_ed25519.pub` refers to the public key. Thus, the file path for the private key is `id_ed22519`.
+In this image, `id_ed25519` refers to the private key, while `id_ed25519.pub` refers to the public key. Thus, the file path for the private key is `C:\Users\diego\.ssh\id_ed22519`.
   
 <h3>Public Key on ieng6:</h3>
   
