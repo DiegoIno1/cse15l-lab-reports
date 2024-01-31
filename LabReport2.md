@@ -86,3 +86,11 @@ In this image, `id_rsa.pub` refers to the public key, making the absolute file p
 <h3>Logging in without a password:</h3>
   
 ![Image](https://i.imgur.com/osGwJKc.png)\
+  
+  
+  
+<h1>Part 3</h1>
+  
+  
+  
+In lab 2 and lab 3, I learned a significant amount about the process of building and running web servers. Although I was aware of localhost and had used it a few times throughout my life, I had never used it to run anything on the web. For this reason, these labs have taught me a significant amount about how to build and run web servers locally, and how to use queuries in order to alter a page on a web server.
