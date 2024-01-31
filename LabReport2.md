@@ -50,7 +50,7 @@ class ChatServer {
 <h3>Screenshot 1:</h3>
   
 ![Image](https://i.imgur.com/rJk1583.png)\
-In order to allow for this to happen, the `split()` method is being used three times at "&", and each of the "=" signs. Furthermore, `equals()` is being used in order to check if the given query is correct.\ 
+In order to allow for this to happen, the `handleRequest()` method is being used in order to read through the given information and actually apply it to the resulting string, while inside of it, the `split()` method is being used three times at "&", and each of the "=" signs. Furthermore, `equals()` is being used in order to check if the given query is correct.\ 
   
 The relevant arguments are `s=How are you` and `user=Diego`. In this case, both are strings, and are being treated as strings automatically.\
   
@@ -60,10 +60,24 @@ The values of each of the relevant fields aren't changing, however the program i
 <h3>Screenshot 2:</h3>
   
 ![Image](https://i.imgur.com/IEL7VMi.png)\
-Once again, the `split()` method is being used three times at "&", and each of the "=" signs. `equals()` is also being used again in order to check if the given query is correct.\ 
+Once again, the `handleRequest()` method is being used to parse and understand the given information, while inside of it, the `split()` method is being used three times at "&", and each of the "=" signs. `equals()` is also being used again in order to check if the given query is correct.\ 
   
 The relevant arguments are `s=Okay` and `user=312`. In this case, the first value is normally a string, but 312 can be treated as an integer, yet both are being treated as strings automatically.\
   
 The values of each of the relevant fields aren't changing, however the value following `user=` is being treated as a string. Once again, this is due to the use of `getQuery()` being used to create a string from the query, making an integer be treated as a string.\
+  
+  
+  
+<h1>Part 2</h1>
+  
+  
+  
+![Image](https://i.imgur.com/O3GtbiS.png)\
+  
+In this image, `id_ed25519` refers to the private key, while `id_ed25519.pub` refers to the public key. Thus, the file path for the private key is `id_ed22519`.
 
-
+![Image](https://i.imgur.com/J1NA7gG.png)\
+  
+In this image, `id_rsa.pub` refers to the public key, making the absolute file path `/home/linux/ieng6/oce/22/dinostroza/.ssh/id_rsa.pub`.
+  
+![Image](https://i.imgur.com/osGwJKc.png)\
