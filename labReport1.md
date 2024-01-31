@@ -3,7 +3,7 @@ Current Working Directory: `/home`
 (The working directory did change because of the `cd` command)
 ```
 {
-[user@sahara ~]$ cd
+[user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ cd lecture1/
 [user@sahara ~/lecture1]$ cd Hello.java
 bash: cd: Hello.java: Not a directory
