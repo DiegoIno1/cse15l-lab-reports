@@ -44,7 +44,9 @@ class ChatServer {
 
 ![Image](https://i.imgur.com/rJk1583.png)\
 In order to allow for this to happen, the `split()` method is being used three times at "&", and each of the "=" signs. Furthermore, `equals()` is being used in order to check if the given query is correct.\ 
+  
 The relevant arguments are `s=How are you` and `user=Diego`. In this case, both are strings, and are being treated as strings automatically.\
+  
 The values of each of the relevant fields aren't changing, however the program is parsing through to grab specific values from the argument, specifically what follows `s=` and `user=`.
 
 ![Image](https://i.imgur.com/IEL7VMi.png)\
