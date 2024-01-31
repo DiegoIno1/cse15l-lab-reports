@@ -43,6 +43,6 @@ class ChatServer {
 ```
 
 ![Image](https://i.imgur.com/rJk1583.png)\
-Here, the method 
+In order to allow for this to happen, the split method is being used three times at "&", and each of the "=" signs. Furthermore, 
 
 ![Image](https://i.imgur.com/IEL7VMi.png)\
