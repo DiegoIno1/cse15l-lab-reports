@@ -43,7 +43,8 @@ class ChatServer {
 ```
   
   
-<h4>Screenshot 1:</h4> 	
+<h4>Screenshot 1:</h4>
+  
 ![Image](https://i.imgur.com/rJk1583.png)\
 In order to allow for this to happen, the `split()` method is being used three times at "&", and each of the "=" signs. Furthermore, `equals()` is being used in order to check if the given query is correct.\ 
   
@@ -53,6 +54,7 @@ The values of each of the relevant fields aren't changing, however the program i
   
 
 <h4>Screenshot 2:</h4>
+  
 ![Image](https://i.imgur.com/IEL7VMi.png)\
 Once again, the `split()` method is being used three times at "&", and each of the "=" signs. `equals()` is also being used again in order to check if the given query is correct.\ 
   
