@@ -9,8 +9,8 @@ Current Working Directory: `/home`
 bash: cd: Hello.java: Not a directory
 }
 ```
-![Image](https://i.imgur.com/d7HyF1s.png)\
-For Example 1, nothing changed. This isn't exactly an error, as we are trying to change the directory, but nothing is input. Because of this, the absolute path remains the same as the working directory.\
+![Image](https://i.imgur.com/v2y3OPr.png)\
+For Example 1, the working directory resets back to its initial state, prior to any changes in directory. This is not an error, as the command is meant to reset the directory upon use.\
 For Example 2, the working directory changed from `/home` to `/home/lecture1/`. This was not an error, as it did exactly what the command is intended to do.\
 For Example 3, the working directory did not change. This example caused an error, as the specific file (`Hello.java`) is not a directory, so it can't become the working directory.\
 \
