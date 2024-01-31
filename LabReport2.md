@@ -41,14 +41,18 @@ class ChatServer {
     }
 }
 ```
-
+  
+  
+<h4>Screenshot 1:</h4> 	
 ![Image](https://i.imgur.com/rJk1583.png)\
 In order to allow for this to happen, the `split()` method is being used three times at "&", and each of the "=" signs. Furthermore, `equals()` is being used in order to check if the given query is correct.\ 
   
 The relevant arguments are `s=How are you` and `user=Diego`. In this case, both are strings, and are being treated as strings automatically.\
   
 The values of each of the relevant fields aren't changing, however the program is parsing through to grab specific values from the argument, specifically what follows `s=` and `user=`. The values aren't changing because `getQuery()` is creating a string from the query, rather than any other types.  
+  
 
+<h4>Screenshot 2:</h4>
 ![Image](https://i.imgur.com/IEL7VMi.png)\
 Once again, the `split()` method is being used three times at "&", and each of the "=" signs. `equals()` is also being used again in order to check if the given query is correct.\ 
   
