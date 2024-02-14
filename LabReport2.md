@@ -64,8 +64,6 @@ The values of each of the relevant fields is changing. Initially, it takes a `UR
 Once again, the `handleRequest()` method is being used to parse and understand the given information, while inside of it, the `split()` method is being used three times at "&", and each of the "=" signs. `equals()` is also being used again in order to check if the given query is correct.
   
 The relevant argument within `handleRequest()` is `URI url`. The code is parsing through the url's path (which has given by `URI url` alongside the method `getPath()`), and uses it in order to find the inputs `s=How are you`, and `user=Diego`, which are treated as strings.
-
-are `s=Okay` and `user=312`. In this case, the first value is normally a string, but 312 can be treated as an integer, yet both are being treated as strings automatically.
   
 Once again, the values of each of the relevant fields is changing. Initially, it takes a `URI` variable. However, to parse through it, it uses strings to easily compare the information. Afterwards, it returns a string that is formatted in order to act as the chat log. Because of this, the relevant fields within the class change from a `URI` to a `String`.
   
