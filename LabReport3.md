@@ -76,6 +76,7 @@ static List<String> filter(List<String> list, StringChecker sc) {
     return result;
   }
 ```
-<h5>The Reason Why This Fix Works</h5>
+<h4>The Reason Why This Fix Works</h4>
+
 The bug initially added all of the correct elements to the list, however, the issue was the fact that it added each element to the beginning of the ArrayList. This caused the entire returned list to be returned backwards. For this reason, simply changing the `add` method to append the given string allows for the bug to be fixed. 
 
