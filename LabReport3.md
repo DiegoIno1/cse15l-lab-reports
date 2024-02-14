@@ -106,6 +106,8 @@ technical/government/Alcohol_Problems/Session4-PDF.txt:164
 ```
 
 In this situation, `-c` is being used on every file in a directory. With this, it is returning the amount of lines that contain "alcohol" in each of the sessionns. If used on a directory with different chapters of a book, it could allow us to view trends. For example, grabbing the amount of lines that contain a certain character's name could allow us to draw trends on that character's rates of appearance.
+  
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 <h3>-n</h3>
 
@@ -151,6 +153,8 @@ technical/government/media/The_State_of_Pro_Bono.txt:154:immigrants' detention w
 ```
 
 Here, `-n` is being used on every file in the "media" directory. This allows us to view every file alongside the specific line numbers in which the word "media" exists. Similarly to the first example, this could allow us to more easily look for certain words or phrases within a large section of text, allowing for far easier searching within directories.
+  
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 <h3>-h</h3>
 
@@ -181,8 +185,10 @@ grep -h "phone" technical/plos/*.txt
 ```
 
 In this scenario, `grep -h` is being called to parse through all of the txt files within the plos directory, searching for instances of "phone". However, it doesnt include the file paths. Because of this, if it is placed into a txt file using `>`, or used as the input for another command, the data can be parsed in order to gather more information on lines where specific words or phrases appear. Normally, this wouldn't work as well, as the file paths could be identified as text when being parsed.
+  
+Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
-<h3>-s</h3>
+<h3>-v</h3>
 
 `-v` returns all lines that do not contain the given text.
 
@@ -240,46 +246,9 @@ technical/government/Alcohol_Problems/DraftRecom-PDF.txt:consequences.
 technical/government/Alcohol_Problems/DraftRecom-PDF.txt:drinking.
 technical/government/Alcohol_Problems/DraftRecom-PDF.txt:clinical
 technical/government/Alcohol_Problems/DraftRecom-PDF.txt:interventions.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:intervention.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:field.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:screening.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:activity.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:operations.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:departments.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:reimbursement.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:setting.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:patients.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:treatment.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:interventions.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:interventions.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:intervention.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:country.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:settings?
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:others.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:helpful.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:encouraged.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:tapped.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:priorities.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:section.
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:
-technical/government/Alcohol_Problems/DraftRecom-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:
-technical/government/Alcohol_Problems/Session2-PDF.txt:tests
-technical/government/Alcohol_Problems/Session2-PDF.txt:drinks).
-technical/government/Alcohol_Problems/Session2-PDF.txt:subgroups.
-technical/government/Alcohol_Problems/Session2-PDF.txt:questionnaires.7
-technical/government/Alcohol_Problems/Session2-PDF.txt:administer.24,25
+... note 240 lines omitted ...
 ```
-(I cut off most of the output since there were several hundred lines in the output.)
   
 In this scenario, `grep -v` is being used to return every file within the Alcohol_Problems directory that excludes spaces. Although it may be a lot to process in a case where there are hundreds of matching lines, in a smaller directory, it could potentially be used in order for a similar case to the previous use of `grep -v`, where words are grabbed in a way that allows for you to take away unneeded lines of information and concatenate at the same time.
-  
   
 Source: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
