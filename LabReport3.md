@@ -29,4 +29,4 @@
 
 <h3>Symptoms</h3>
 
-[!Image](https://i.imgur.com/6A0u4Kj.png)
+[Image](https://i.imgur.com/6A0u4Kj.png)
