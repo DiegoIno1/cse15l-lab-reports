@@ -1,6 +1,7 @@
 <h1>Part 1</h1>
 
 <h3>Failure-Inducing Input in ListExamples</h3>
+
 ```
 @Test
     public void TestFilter(){
@@ -9,9 +10,12 @@
         StringChecker checker = new TestingStringTester();
         List<String> finalList = ListExamples.filter(input1, checker); 
         assertEquals(expectedOut, finalList);
-    }```
+    }
+```
+    
    
 <h3>Non-Failure Input in ListExamples</h3>
+
 ```
 @Test
     public void SuccessTestFilter(){
@@ -22,3 +26,4 @@
         assertEquals(expectedOut, finalList);
     }
 ```
+
