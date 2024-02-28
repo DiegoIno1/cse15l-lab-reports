@@ -1,5 +1,7 @@
 <h1>Step 4</h1>
 
+![Image](https://i.imgur.com/sZ2tmuE.png)\
+
 Keys Pressed: `<up><enter>`
   
 The command `ssh dinostroza@ieng6-202.ucsd.edu` was one command up in the search history outside of the server, so one up arrow press was needed to run it.
