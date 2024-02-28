@@ -8,7 +8,7 @@ The command `ssh dinostroza@ieng6-202.ucsd.edu` was one command up in the search
 
 <h1>Step 5</h1>
 
-![Image](https://i.imgur.com/wLYjX0I.png)
+![Image](https://i.imgur.com/VdujsL5.png)
 
 Keys Pressed: `git clone <ctrl + v>`
   
