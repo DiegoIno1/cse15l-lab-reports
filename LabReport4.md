@@ -21,6 +21,8 @@ Here, I used the cd command to change directory to the newly created `lab7` dire
 Keys Pressed for the command: `vim L<tab>.j<tab><enter>`
   
 In order to access file using vim, I ran the `vim` command `vim ListExamples.java`. Although I typed the `vim` command normally, I used `L` and `<tab>` to fill ListExamples, then `.j` and `<tab>` in order to specify that I wanted `ListExamples.java` instead of `ListExamplesTests.java`.
+  
+  
     
 Keys pressed to fix the error: `G 6k 11l r2`
   
