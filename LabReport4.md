@@ -1,4 +1,4 @@
-![OblPn00](https://github.com/DiegoIno1/cse15l-lab-reports/assets/156348081/f1d89745-9f3a-43b9-b72b-53a01771d53b)<h1>Step 4</h1>
+<h1>Step 4</h1>
 
 ![Image](https://i.imgur.com/sZ2tmuE.png)
 
