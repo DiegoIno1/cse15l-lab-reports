@@ -1,6 +1,6 @@
-<h1>Step 4</h1>
+![OblPn00](https://github.com/DiegoIno1/cse15l-lab-reports/assets/156348081/f1d89745-9f3a-43b9-b72b-53a01771d53b)<h1>Step 4</h1>
 
-![Image](https://i.imgur.com/sZ2tmuE.png)\
+![Image](https://i.imgur.com/sZ2tmuE.png)
 
 Keys Pressed: `<up><enter>`
   
@@ -8,17 +8,24 @@ The command `ssh dinostroza@ieng6-202.ucsd.edu` was one command up in the search
 
 <h1>Step 5</h1>
 
+![Image](https://i.imgur.com/wLYjX0I.png)
+
 Keys Pressed: `git clone <ctrl + v>`
   
 Here, I just normally typed git clone, and pasted in the ssh. Since I had "git@github.com:DiegoIno1/lab7.git" already on my clipboard from my last attempt, I simply pasted it in order to clone it in without needing to press the up arrow many times.
 
 <h1>Step 6</h1>
 
+![Image](https://imgur.com/a/mSqOpx2)
+
 Keys Pressed: `cd l<tab><enter>bash t<tab>`
   
 Here, I used the cd command to change directory to the newly created `lab7` directory, using `<tab>` after `l` since `lab7` is the only directory starting with "l" within my current directory. Then, I ran the `bash` command with the argument `test.bash` by before `t` and `<tab>` in order to autofill the `test.bash` file.
 
 <h1>Step 7</h1>
+
+
+![Image](https://i.imgur.com/OblPn00.png)
 
 Keys Pressed for the command: `vim L<tab>.j<tab><enter>`
   
@@ -32,11 +39,15 @@ Since the error occured near the end of the file, I used `G` to move to the bott
 
 <h1>Step 8</h1>
 
+![Image](https://i.imgur.com/kXs0xy9.png)
+
 Keys Pressed: `<up><up><enter>`
   
 Since the same test is being ran as before, I pressed the up arrow twice to rerun the bash command.
 
 <h1>Step 9</h1>
+
+![Image](https://i.imgur.com/uSbIKSv.png)
 
 Keys Pressed: 
   
