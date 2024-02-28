@@ -16,7 +16,7 @@ Here, I just normally typed git clone, and pasted in the ssh. Since I had "git@g
 
 <h1>Step 6</h1>
 
-![Image](https://imgur.com/a/mSqOpx2)
+![Image](https://i.imgur.com/071smpt.png)
 
 Keys Pressed: `cd l<tab><enter>bash t<tab>`
   
