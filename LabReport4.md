@@ -25,17 +25,17 @@ Here, I used the cd command to change directory to the newly created `lab7` dire
 <h1>Step 7</h1>
 
 
-![Image](https://i.imgur.com/OblPn00.png)
+![Image](https://i.imgur.com/0eUktxj.png)
 
 Keys Pressed for the command: `vim L<tab>.j<tab><enter>`
   
 In order to access file using vim, I ran the `vim` command `vim ListExamples.java`. Although I typed the `vim` command normally, I used `L` and `<tab>` to fill ListExamples, then `.j` and `<tab>` in order to specify that I wanted `ListExamples.java` instead of `ListExamplesTests.java`.
   
-  
+![Image](https://i.imgur.com/ELPllPe.png)  
     
-Keys pressed to fix the error: `G 6k 11l r2`
+Keys pressed to fix the error: `G 6k 11l r2 <escape> :wq`
   
-Since the error occured near the end of the file, I used `G` to move to the bottom of the page. After that I used `6k` to move the cursor up 6 lines in order to get to the line I wanted. Then I pressed `11l` to move 11 characters to the left, with my cursor hovering over the 1 which needed to be fixed. Finally I used `r2` to replace the 1 with a 2.
+Since the error occured near the end of the file, I used `G` to move to the bottom of the page. After that I used `6k` to move the cursor up 6 lines in order to get to the line I wanted. Then I pressed `11l` to move 11 characters to the left, with my cursor hovering over the 1 which needed to be fixed. Finally I used `r2` to replace the 1 with a 2. Finally, I used `:wq` to save and quit the file.
 
 <h1>Step 8</h1>
 
