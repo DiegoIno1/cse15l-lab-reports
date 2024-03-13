@@ -37,6 +37,7 @@ Alright that line looks like it should work, assuming that $CPATH is correct. Si
 <h3>Diego Inostroza:</h3>
   
 This is what my JUnit output is.
+  
 ![Image](https://i.imgur.com/0Jfknb4.png)
   
   
